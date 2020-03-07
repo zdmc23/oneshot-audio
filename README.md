@@ -1,7 +1,8 @@
-# oneshot-audio
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/zdmc23/oneshot-audio/blob/master/LICENSE)
+# Audio Visual Identity Verification
 
-Experiment with "one-shot learning" techniques to recognize a voice signature. This was my submission and demo for LVTech hack-a-thon 2018
+This repository aims to use one-shot learning and a combination of speech and visual verification to authenticate a person for access.
+
+
 
 ![Alt text](/images/classify-example.png?raw=true "")
 
