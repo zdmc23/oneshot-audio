@@ -4,7 +4,7 @@ This repository aims to use one-shot learning and a combination of speech and vi
 
 
 
-![Alt text](/images/classify-example.png?raw=true "")
+![Alt text](/audio/images/classify-example.png?raw=true "")
 
 #### One-Shot Learning?
 
@@ -14,7 +14,7 @@ This repository aims to use one-shot learning and a combination of speech and vi
 
 #### Siamese Network
 
-![Alt text](/images/siamese-net.jpeg?raw=true "") 
+![Alt text](/audio/images/siamese-net.jpeg?raw=true "") 
 
 - G Koch, R Zemel, and R Salakhutdinov. Siamese neural networks for one-shot image recognition. In
 ICML Deep Learning workshop, 2015. (http://www.cs.toronto.edu/~zemel/documents/oneshot1.pdf).
