@@ -3,9 +3,6 @@
 This repository aims to use one-shot learning and a combination of speech and visual verification to authenticate a person for access.
 
 
-
-![Alt text](/audio/images/classify-example.png?raw=true "")
-
 #### One-Shot Learning?
 
 "People can learn a new concept from just one or a few examples, making meaningful generalizations that go far beyond the observed data. Replicating this ability in machines has been challenging, since standard learning algorithms require tens, hundreds, or thousands of examples before reaching a high level of classification performance" [1]. (With Deep Learning, the dataset requirement has grown to 100K+).
