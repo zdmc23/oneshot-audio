@@ -1,0 +1,25 @@
+# This builds the docker image
+# docker build -t project_img -f Dockerfile.project.v1 .
+# docker run --privileged --rm -p 8888:8888 -v "$PWD":/HW07 -it hw7_img bash
+
+
+FROM w251/keras:dev-tx2-4.3_b132-tf1
+
+RUN apt update && apt install python3-matplotlib python3-pil wget -y
+
+
+###### install the c++ version of protobuf ####
+RUN pip3 uninstall -y protobuf
+RUN pip3 install cython 
+RUN pip3 install pynput
+RUN pip3 install -U https://github.com/respeaker/respeaker_python_library/archive/master.zip
+RUN apt-get update
+RUN apt-get -y install python3-pyaudio
+RUN apt-get -y install python-cffi portaudio19-dev python-pyaudio python3-pyaudio swig libpulse-dev python-usb python3-usb libasound-dev ffmpeg
+RUN pip3 install webrtcvad pocketsphinx 
+#RUN pip3 install sounddevice
+#http://portaudio.com/archives/pa_stable_v190600_20161030.tgz
+
+###########
+#
+RUN apt install python3-opencv -y
